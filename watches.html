@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Distribution Proposal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; padding: 20px; }
+
+  h1 { background: #1e3a5f; color: white; text-align: center; padding: 14px 20px; border-radius: 10px; font-size: 17px; margin-bottom: 18px; }
+
+  /* FLOW */
+  .flow { display: flex; align-items: center; gap: 6px; margin-bottom: 18px; flex-wrap: wrap; justify-content: center; }
+  .box { border-radius: 10px; color: white; padding: 12px 16px; text-align: center; min-width: 120px; }
+  .box .title { font-weight: bold; font-size: 14px; }
+  .box .sub { font-size: 11px; margin-top: 3px; opacity: .9; }
+  .china { background: #4a90d9; }
+  .you   { background: #e67e22; }
+  .buyer { background: #27ae60; }
+  .earn  { background: #8e44ad; }
+  .arrow { font-size: 22px; color: #555; display: flex; flex-direction: column; align-items: center; line-height: 1; }
+  .arrow span { font-size: 10px; color: #777; }
+
+  /* PANELS */
+  .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px; }
+  @media (max-width: 520px) { .panels { grid-template-columns: 1fr; } }
+  .panel { background: white; border-radius: 10px; overflow: hidden; }
+  .panel-head { color: white; padding: 9px 14px; font-weight: bold; font-size: 13px; }
+  .blue-head  { background: #4a90d9; }
+  .green-head { background: #27ae60; }
+  .panel ul   { list-style: none; padding: 12px 14px; }
+  .panel ul li { padding: 5px 0; font-size: 13px; color: #333; display: flex; gap: 8px; }
+  .panel ul li::before { content: "•"; color: #4a90d9; font-weight: bold; flex-shrink: 0; }
+  .green-head ~ ul li::before { color: #27ae60; }
+
+  /* OVERVIEW */
+  .overview { background: white; border-left: 5px solid #1e3a5f; border-radius: 10px; padding: 14px 18px; margin-bottom: 18px; }
+  .overview h2 { font-size: 13px; color: #1e3a5f; font-weight: bold; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .5px; }
+  .overview p { font-size: 13px; color: #333; line-height: 1.7; }
+</style>
+</head>
+<body>
+
+<h1>⌚ Watch Distribution Partnership Proposal – USA</h1>
+
+<!-- OVERVIEW -->
+<div class="overview">
+  <h2>📋 Overview – How It Works</h2>
+  <p>
+    Watches are imported directly from China and shipped to your address in the USA. You don't need to invest any money or find customers — buyers are already arranged beforehand. Your job is simply to receive the packages, then either hand the watches to local buyers who come to pick them up, or ship them out via courier. For every watch you handle and coordinate, you earn a profit of <strong>$50–$100</strong>.
+  </p>
+</div>
+
+<!-- FLOW -->
+<div class="flow">
+  <div class="box china">
+    <div class="title">🇨🇳 China</div>
+    <div class="sub">Watch Supplier</div>
+  </div>
+  <div class="arrow">→<span>ships to</span></div>
+  <div class="box you">
+    <div class="title">🏠 You (USA)</div>
+    <div class="sub">Receive at your address</div>
+  </div>
+  <div class="arrow">→<span>forward to</span></div>
+  <div class="box buyer">
+    <div class="title">👤 Buyers</div>
+    <div class="sub">Pickup or courier</div>
+  </div>
+  <div class="arrow">→<span>you earn</span></div>
+  <div class="box earn">
+    <div class="title">💰 $50–$100</div>
+    <div class="sub">per watch</div>
+  </div>
+</div>
+
+<!-- PANELS -->
+<div class="panels">
+  <div class="panel">
+    <div class="panel-head blue-head">📦 Your Role</div>
+    <ul>
+      <li>Receive watch packages at your US address</li>
+      <li>Hand watches to local buyers who come to you</li>
+      <li>Ship to buyers via courier when needed</li>
+      <li>Handle basic coordination &amp; communication</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <div class="panel-head green-head">✅ Claimed Benefits</div>
+    <ul>
+      <li>No investment or money needed from you</li>
+      <li>No need to find customers yourself</li>
+      <li>Described as low-risk &amp; simple</li>
+      <li>Just need to be reliable and based in the USA</li>
+    </ul>
+  </div>
+</div>
+
+
+
+</body>
+</html>
